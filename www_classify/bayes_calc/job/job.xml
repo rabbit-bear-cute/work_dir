@@ -1,0 +1,34 @@
+//作业配置
+//版本：1.0
+
+//模块配置
+<mod>
+	//模块名称
+	<name>www_terms_select</name>
+	//工作目录
+    <dir>/home/rank/lvyunhe/zz_task/www_classify/work/</dir>
+	//
+    <log_path>/home/rank/lvyunhe/zz_task/www_classify/log/</log_path>
+	//模块维护者，以接收报警邮件
+	<owner>lvyunhe@weidian.com</owner>
+	//
+	<hdfs_dir>/data/archive/app_oeudjgn5872a7c3aaa54_datamine/lvyunhe/www_classify</hdfs_dir>
+    <local_dir>/home/rank/lvyunhe/zz_task/www_classify/data</local_dir>
+	//指定需要运行的任务
+    <task_run>term_count</task_run>
+</mod>
+
+
+<task>
+	//任务名称
+	<code>term_count</code>
+	<queue>rank</queue>
+	//采用相对路径
+    <mapper>sh -x work/term_count_map.sh</mapper>
+    <reducer>sh -x work/term_count_reduce.sh</reducer>
+	<task_num>101</task_num>
+	//多个输入以逗号分隔
+    <input_files>local:www_page_data</input_files>
+	//输出的HDFS路径
+    <output>local:count_term</output>
+</task>

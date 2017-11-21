@@ -1,0 +1,24 @@
+nohup: ignoring input
++ '[' 1 -lt 1 ']'
++ DATA_DIR=/home/rank/lvyunhe/ElasticSearch/data
+++ date +%Y%m%d
++ date=20171116
++ PAGE_FILE=../data/display_item.json
+++ date
++ echo Thu Nov 16 11:50:53 CST 2017 page_clear start and page_file=../data/display_item.json
++ cat ../data/display_item.json
++ python display_page_clear.py
+++ date
++ echo Fri Nov 17 09:17:13 CST 2017 page_clear done and es_delete start
++ curl -XDELETE http://10.1.23.154:9200/zixun_search
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0    21    0    21    0     0    278      0 --:--:-- --:--:-- --:--:--   283
+++ date
++ echo Fri Nov 17 09:17:13 CST 2017 es_delete done and es_insert start
++ cat /home/rank/lvyunhe/ElasticSearch/data/page_clean.20171116
++ sort
++ python display_page_insert.py
++ uniq
+++ date
++ echo Fri Nov 17 09:21:48 CST 2017 all done

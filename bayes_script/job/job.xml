@@ -1,0 +1,102 @@
+//作业配置
+//版本：1.0
+
+//模块配置
+<mod>
+	//模块名称
+	<name>term_weight</name>
+	//工作目录
+	<dir>/home/rank/lvyunhe/itemclass/bayes_script/work</dir>
+	//
+	<log_path>/home/rank/lvyunhe/itemclass/bayes_script/log</log_path>
+	//模块维护者，以接收报警邮件
+	<owner>lvyunhe@weidian.com</owner>
+	//
+	<hdfs_dir>/data/archive/app_oeudjgn5872a7c3aaa54_datamine/lvyunhe/term_weight</hdfs_dir>
+	<local_dir>/home/rank/lvyunhe/itemclass/bayes_script/data</local_dir>
+	//指定需要运行的任务
+	<task_run>title_seg, cid_term, cid, term_bayes,  bayes_calc</task_run>
+</mod>
+
+
+<task>
+	//任务名称
+	<code>title_seg</code>
+	<queue>rank</queue>
+	//采用相对路径
+	<mapper>sh -x work/word_seg.sh</mapper>
+	<reducer></reducer>
+	<task_num>101</task_num>
+	//多个输入以逗号分隔
+	<input_files>/data/archive/app_oeudjgn5872a7c3aaa54_datamine/product-group/product-info/part-*</input_files>
+	//输出的HDFS路径
+	<output>title_seg</output>
+</task>
+<task>
+	//任务名称
+	<code>cid_term</code>
+	<queue>rank</queue>
+	//采用相对路径
+	<mapper>sh -x work/cid_term_map.sh</mapper>
+	<reducer>sh -x work/cid_term_reduce.sh</reducer>
+	<key_num>3</key_num>
+	<sort_num>3</sort_num>
+	//多个输入以逗号分隔
+	<input_files>title_seg</input_files>
+	//输出的HDFS路径
+	<output>cid_term</output>
+</task>
+
+
+<task>
+	//任务名称
+	<code>cid</code>
+	<queue>rank</queue>
+	//采用相对路径
+	<mapper>sh -x work/cid_map.sh</mapper>
+	<reducer>sh -x work/cid_reduce.sh</reducer>
+	<task_num>1</task_num>
+	//多个输入以逗号分隔
+	<input_files>cid_term</input_files>
+	//输出的HDFS路径
+	<output>local:cid</output>
+</task>
+
+<task>
+	//任务名称
+	<code>term_bayes</code>
+	<queue>rank</queue>
+	//采用相对路径
+	<mapper>sh -x work/term_bayes_map.sh</mapper>
+	<reducer>sh -x work/term_bayes_reduce.sh</reducer>
+	<key_num>1</key_num>
+	<sort_num>2</sort_num>
+	//多个输入以逗号分隔
+	<input_files>cid/part-*, cid_term/part-*</input_files>
+	//输出的HDFS路径
+	<output>term_bayes</output>
+</task>
+<task>
+	//任务名称
+	<code>bayes_calc</code>
+	<queue>rank</queue>
+	//采用相对路径
+	<mapper>sh -x work/bayes_calc_map.sh</mapper>
+	<reducer>sh -x work/bayes_calc_reduce.sh</reducer>
+	//多个输入以逗号分隔
+	<input_files>term_bayes</input_files>
+	//输出的HDFS路径
+	<output>bayes_calc</output>
+</task>
+<task>
+	//任务名称
+	<code>term_fisher</code>
+	<queue>rank</queue>
+	//采用相对路径
+	<mapper>sh -x work/term_fisher_map.sh</mapper>
+	<reducer>sh -x work/term_fisher_reduce.sh</reducer>
+	//多个输入以逗号分隔
+	<input_files>term_bayes/part-*</input_files>
+	//输出的HDFS路径
+	<output>term_fisher</output>
+</task>

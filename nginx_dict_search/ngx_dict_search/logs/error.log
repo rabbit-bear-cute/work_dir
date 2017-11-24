@@ -1,0 +1,142 @@
+2017/07/25 14:14:35 [error] 12067#0: *2 open() "/data/rd/lvyunhe/nginx/ngx_dict_search/html/favicon.ico" failed (2: No such file or directory), client: 172.16.197.173, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.1.22.62:8088", referrer: "http://10.1.22.62:8088/"
+#################################################
+2017-07-25 14:14:46,5144  ####E: /data/rd/lvyunhe/dict_search/test.c   36            dict_load # ./test_part: No such file or directory
+####################################
+
+2017/07/25 14:14:46 [alert] 12064#0: worker process 12067 exited on signal 6 (core dumped)
+#################################################
+2017-07-25 14:14:46,5378  ####E: /data/rd/lvyunhe/dict_search/test.c   36            dict_load # ./test_part: No such file or directory
+####################################
+
+2017/07/25 14:14:46 [alert] 12064#0: worker process 12079 exited on signal 6 (core dumped)
+#################################################
+2017-07-25 14:14:46,5634  ####E: /data/rd/lvyunhe/dict_search/test.c   36            dict_load # ./test_part: No such file or directory
+####################################
+
+2017/07/25 14:14:46 [alert] 12064#0: worker process 12080 exited on signal 6 (core dumped)
+#################################################
+2017-07-25 14:14:46,6010  ####E: /data/rd/lvyunhe/dict_search/test.c   36            dict_load # ./test_part: No such file or directory
+####################################
+
+2017/07/25 14:14:46 [alert] 12064#0: worker process 12081 exited on signal 6 (core dumped)
+#################################################
+2017-07-25 14:15:17,3990  ####E: /data/rd/lvyunhe/dict_search/test.c   36            dict_load # ./test_part: No such file or directory
+####################################
+
+2017/07/25 14:15:17 [alert] 12064#0: worker process 12082 exited on signal 6 (core dumped)
+#################################################
+2017-07-25 14:15:17,4194  ####E: /data/rd/lvyunhe/dict_search/test.c   36            dict_load # ./test_part: No such file or directory
+####################################
+
+2017/07/25 14:15:17 [alert] 12064#0: worker process 12109 exited on signal 6 (core dumped)
+#################################################
+2017-07-25 14:15:17,4380  ####E: /data/rd/lvyunhe/dict_search/test.c   36            dict_load # ./test_part: No such file or directory
+####################################
+
+2017/07/25 14:15:17 [alert] 12064#0: worker process 12110 exited on signal 6 (core dumped)
+#################################################
+2017-07-25 14:15:54,7832  ####E: /data/rd/lvyunhe/dict_search/test.c   36            dict_load # ./test_part: No such file or directory
+####################################
+
+2017/07/25 14:15:54 [alert] 12064#0: worker process 12111 exited on signal 6 (core dumped)
+#################################################
+2017-07-25 14:15:54,8050  ####E: /data/rd/lvyunhe/dict_search/test.c   36            dict_load # ./test_part: No such file or directory
+####################################
+
+2017/07/25 14:15:54 [alert] 12064#0: worker process 12125 exited on signal 6 (core dumped)
+#################################################
+2017-07-25 14:15:54,8610  ####E: /data/rd/lvyunhe/dict_search/test.c   36            dict_load # ./test_part: No such file or directory
+####################################
+
+2017/07/25 14:15:54 [alert] 12064#0: worker process 12126 exited on signal 6 (core dumped)
+#################################################
+2017-07-25 14:17:40,1771  ####E: /data/rd/lvyunhe/dict_search/test.c   36            dict_load # ./test_part: No such file or directory
+####################################
+
+2017/07/25 14:17:40 [alert] 12064#0: worker process 12127 exited on signal 6 (core dumped)
+#################################################
+2017-07-25 14:17:40,2062  ####E: /data/rd/lvyunhe/dict_search/test.c   36            dict_load # ./test_part: No such file or directory
+####################################
+
+2017/07/25 14:17:40 [alert] 12064#0: worker process 12204 exited on signal 6 (core dumped)
+#################################################
+2017-07-25 14:17:40,2300  ####E: /data/rd/lvyunhe/dict_search/test.c   36            dict_load # ./test_part: No such file or directory
+####################################
+
+2017/07/25 14:17:40 [alert] 12064#0: worker process 12205 exited on signal 6 (core dumped)
+2017/07/25 14:22:42 [notice] 12438#0: signal process started
+2017/07/25 14:27:29 [alert] 19729#0: worker process 19730 exited on signal 11 (core dumped)
+2017/07/25 14:27:32 [alert] 19729#0: worker process 19750 exited on signal 11 (core dumped)
+2017/07/25 14:27:37 [alert] 19729#0: worker process 19754 exited on signal 11 (core dumped)
+2017/07/25 14:27:57 [alert] 19729#0: worker process 19766 exited on signal 11 (core dumped)
+2017/07/25 14:28:05 [alert] 19729#0: worker process 19777 exited on signal 11 (core dumped)
+2017/07/25 14:28:08 [alert] 19729#0: worker process 19781 exited on signal 11 (core dumped)
+2017/07/25 14:28:12 [alert] 19729#0: worker process 19790 exited on signal 11 (core dumped)
+2017/07/25 14:30:30 [notice] 19900#0: signal process started
+2017/07/25 14:39:39 [alert] 20207#0: worker process 20210 exited on signal 11 (core dumped)
+2017/07/25 14:39:45 [alert] 20207#0: worker process 20219 exited on signal 11 (core dumped)
+2017/07/25 14:40:02 [alert] 20207#0: worker process 20244 exited on signal 11 (core dumped)
+2017/07/25 14:44:08 [notice] 20422#0: signal process started
+2017/07/25 14:58:57 [alert] 20905#0: worker process 20906 exited on signal 11 (core dumped)
+2017/07/25 14:59:01 [alert] 20905#0: worker process 20909 exited on signal 11 (core dumped)
+2017/07/25 14:59:04 [alert] 20905#0: worker process 20913 exited on signal 11 (core dumped)
+2017/07/25 14:59:08 [alert] 20905#0: worker process 20914 exited on signal 11 (core dumped)
+2017/07/25 15:02:49 [notice] 21087#0: signal process started
+2017/07/25 15:03:25 [alert] 21139#0: worker process 21140 exited on signal 11 (core dumped)
+2017/07/25 15:03:29 [alert] 21139#0: worker process 21143 exited on signal 11 (core dumped)
+2017/07/25 15:03:32 [alert] 21139#0: worker process 21144 exited on signal 11 (core dumped)
+2017/07/25 15:03:33 [notice] 21150#0: signal process started
+2017/07/25 15:06:02 [notice] 28645#0: signal process started
+2017/07/25 15:18:40 [notice] 9376#0: signal process started
+2017/07/25 15:20:29 [alert] 16200#0: worker process 16201 exited on signal 11 (core dumped)
+2017/07/25 15:20:33 [alert] 16200#0: worker process 16205 exited on signal 11 (core dumped)
+2017/07/25 15:20:36 [alert] 16200#0: worker process 16207 exited on signal 11 (core dumped)
+2017/07/25 15:24:22 [notice] 16351#0: signal process started
+2017/07/25 15:36:05 [notice] 23793#0: signal process started
+2017/07/25 15:38:13 [notice] 31182#0: signal process started
+2017/07/25 16:25:27 [alert] 5626#0: worker process 5627 exited on signal 9
+2017/07/26 10:02:46 [notice] 12674#0: signal process started
+2017/07/26 10:20:14 [notice] 409#0: signal process started
+2017/07/26 10:20:17 [alert] 32702#0: worker process 32703 exited on signal 9
+2017/07/26 10:20:23 [error] 417#0: *1 open() "/data/rd/lvyunhe/nginx/ngx_dict_search/html/favicon.ico" failed (2: No such file or directory), client: 172.16.197.173, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.1.22.62:8088", referrer: "http://10.1.22.62:8088/"
+2017/07/26 10:25:46 [notice] 629#0: signal process started
+2017/07/26 10:25:50 [alert] 416#0: worker process 417 exited on signal 9
+2017/07/26 10:34:18 [notice] 7892#0: signal process started
+2017/07/26 10:34:21 [alert] 7711#0: worker process 7712 exited on signal 9
+2017/07/26 10:40:46 [notice] 21881#0: signal process started
+2017/07/26 10:49:21 [notice] 29475#0: signal process started
+2017/07/26 10:49:24 [alert] 29419#0: worker process 29422 exited on signal 9
+2017/07/26 10:57:44 [notice] 29737#0: signal process started
+2017/07/26 10:57:47 [alert] 29484#0: worker process 29485 exited on signal 9
+2017/08/02 18:12:14 [notice] 18197#0: signal process started
+2017/08/02 18:12:14 [error] 18197#0: open() "/data/rd/lvyunhe/nginx/ngx_dict_search/logs/nginx.pid" failed (2: No such file or directory)
+2017/08/02 18:16:41 [notice] 18311#0: signal process started
+2017/08/02 18:19:17 [error] 18324#0: *1 open() "/data/rd/lvyunhe/nginx/ngx_dict_search/html/favicon.ico" failed (2: No such file or directory), client: 172.16.197.173, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.1.22.62:8088", referrer: "http://10.1.22.62:8088/"
+2017/08/02 18:29:16 [notice] 18550#0: signal process started
+2017/08/02 18:29:19 [alert] 18323#0: worker process 18324 exited on signal 9
+2017/08/02 18:30:33 [notice] 24440#0: signal process started
+2017/08/02 18:55:46 [notice] 30777#0: signal process started
+2017/08/02 18:55:49 [alert] 30568#0: worker process 30569 exited on signal 9
+2017/08/02 18:57:34 [notice] 3886#0: signal process started
+2017/08/02 18:57:37 [alert] 3872#0: worker process 3873 exited on signal 9
+2017/08/02 19:00:18 [notice] 9853#0: signal process started
+2017/08/02 19:00:21 [alert] 9832#0: worker process 9833 exited on signal 9
+2017/08/03 16:08:09 [error] 26408#0: *7 open() "/data/rd/lvyunhe/nginx/ngx_dict_search/html/favicon.ico" failed (2: No such file or directory), client: 172.16.197.173, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.1.22.62:8088", referrer: "http://10.1.22.62:8088/test.do?taobao13927445998,taobao13927446474"
+2017/08/03 16:14:09 [notice] 26575#0: signal process started
+2017/08/03 16:15:04 [error] 32565#0: *1 open() "/data/rd/lvyunhe/nginx/ngx_dict_search/html/test.do" failed (2: No such file or directory), client: 172.16.197.173, server: localhost, request: "GET /test.do?taobao13927445998,taobao13927446474 HTTP/1.1", host: "10.1.22.62:8088"
+2017/08/03 16:22:46 [notice] 32695#0: signal process started
+2017/08/03 16:26:25 [error] 6378#0: *2 open() "/data/rd/lvyunhe/nginx/ngx_dict_search/html/test.do" failed (2: No such file or directory), client: 172.16.197.173, server: localhost, request: "GET /test.do?taobao13927445998,taobao13927446474 HTTP/1.1", host: "10.1.22.62:8088"
+2017/08/03 18:09:38 [error] 6378#0: *8 open() "/data/rd/lvyunhe/nginx/ngx_dict_search/html/favicon.ico" failed (2: No such file or directory), client: 172.16.193.9, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.1.22.62:8088", referrer: "http://10.1.22.62:8088/search_dict.php?taobao13927445998"
+2017/08/03 18:56:05 [notice] 8270#0: signal process started
+2017/08/04 16:57:29 [alert] 14215#0: worker process 14216 exited on signal 9
+2017/08/04 17:03:43 [error] 24515#0: *2 open() "/data/lvyunhe/viw/ngx_dict_search/html/favicon.ico" failed (2: No such file or directory), client: 172.16.197.173, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.1.15.100:8088", referrer: "http://10.1.15.100:8088/"
+2017/08/04 17:04:14 [error] 24515#0: *7 open() "/data/lvyunhe/viw/ngx_dict_search/html/favicon.ico" failed (2: No such file or directory), client: 172.16.197.173, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.1.15.100:8088", referrer: "http://10.1.15.100:8088/search_dict.php?taobao12460269227,taobao13395711874"
+2017/08/04 17:11:44 [alert] 24514#0: worker process 24515 exited on signal 9
+2017/08/04 17:12:43 [error] 12685#0: *513 open() "/data/lvyunhe/viw/ngx_dict_search/html/favicon.ico" failed (2: No such file or directory), client: 172.16.192.214, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.1.15.100:8088", referrer: "http://10.1.15.100:8088/search_dict.php?taobao12460269227,taobao13395711874"
+2017/08/04 17:35:11 [notice] 399#0: signal process started
+2017/08/04 17:41:36 [alert] 9207#0: worker process 9208 exited on signal 9
+2017/08/04 18:07:25 [notice] 14742#0: signal process started
+2017/08/05 15:39:08 [error] 9842#0: *2111 open() "/data/lvyunhe/viw/ngx_dict_search/html/favicon.ico" failed (2: No such file or directory), client: 172.16.33.49, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.1.15.100:8088", referrer: "http://10.1.15.100:8088/search_dict.php?taobao12460269227,taobao13395711874,taobao10000026046"
+2017/08/17 15:46:05 [error] 9842#0: *2113 open() "/data/lvyunhe/viw/ngx_dict_search/html/favicon.ico" failed (2: No such file or directory), client: 172.16.198.242, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.1.15.100:8088", referrer: "http://10.1.15.100:8088/search_dict.php?taobao12460269227,taobao13395711874,taobao10000026046"
+2017/08/29 18:41:55 [error] 9842#0: *2117 open() "/data/lvyunhe/viw/ngx_dict_search/html/favicon.ico" failed (2: No such file or directory), client: 172.16.195.29, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.1.15.100:8088", referrer: "http://10.1.15.100:8088/search_dict.php?taobao12460269227,taobao13395711874,taobao10000026046"
+2017/11/24 11:20:13 [error] 9842#0: *2122 open() "/data/lvyunhe/viw/ngx_dict_search/html/favicon.ico" failed (2: No such file or directory), client: 172.16.197.173, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.1.15.100:8088", referrer: "http://10.1.15.100:8088/search_dict.php?taobao12460269227,taobao13395711874,taobao10000026046"

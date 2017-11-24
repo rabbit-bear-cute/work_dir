@@ -1,0 +1,7 @@
+ngx_addon_name=ngx_http_test_module;
+HTTP_MODULES="$HTTP_MODULES ngx_http_test_module";
+NGX_ADDON_SRCS="$NGX_ADDON_SRCS $ngx_addon_dir/ngx_http_test_module.c $ngx_addon_dir/test.c $ngx_addon_dir/../libco/*.c $ngx_addon_dir/../libco/url/*.c $ngx_addon_dir/../libco/err/*.c";
+NGX_ADDON_DEPS="$NGX_ADDON_DEPS  $ngx_addon_dir/test.h $ngx_addon_dir/../libco/*.h $ngx_addon_dir/../libco/url/*.h $ngx_addon_dir/../libco/err/*.h";
+CORE_LIBS="$CORE_LIBS -lcurl -lm";
+CORE_INCS="$CORE_INCS $ngx_addon_dir $ngx_addon_dir/../libco $ngx_addon_dir/../libco/url $ngx_addon_dir/../libco/err";
+CFLAGS="$CFLAGS -O2";

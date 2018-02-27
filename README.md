@@ -7,3 +7,4 @@
     * 基于redis的简易搜索引擎
     * 队列：redis中的list结构相关操作
 * nginx_dict_search: 关键字词典搜索服务
+* hadoop：mapreduce运行脚本
